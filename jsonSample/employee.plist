@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>employees</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>k600</string>
+			<key>name</key>
+			<string>Leonardo dicaprio</string>
+			<key>email</key>
+			<string>leonardo@gmail.com</string>
+			<key>address</key>
+			<string>xxx, xxx street, xxx city, xxx state, xxx country</string>
+			<key>phone</key>
+			<dict>
+				<key>mobile</key>
+				<string>6000000000</string>
+				<key>home</key>
+				<string>7000000000</string>
+				<key>office</key>
+				<string>8000000000</string>
+			</dict>
+			<key>gender</key>
+			<string>male</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>c200</string>
+			<key>name</key>
+			<string>Jonny Depp</string>
+			<key>email</key>
+			<string>jonny@gmail.com</string>
+			<key>address</key>
+			<string>xxx, xxx street, xxx city, xxx state, xxx country</string>
+			<key>phone</key>
+			<dict>
+				<key>mobile</key>
+				<string>2000000000</string>
+				<key>home</key>
+				<string>3000000000</string>
+				<key>office</key>
+				<string>4000000000</string>
+			</dict>
+			<key>gender</key>
+			<string>male</string>
+		</dict>
+	</array>
+</dict>
+</plist>
