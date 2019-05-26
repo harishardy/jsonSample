@@ -12,42 +12,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         
-        
-        
-        
         let pathX = Bundle.main.path(forResource: "employee", ofType: "plist")
         let dictionaryX = NSDictionary(contentsOfFile: pathX!) as! [String: Any]
         
-        if let arrayX = (dictionaryX["employees"] as? NSArray)
+        if let arrayX1 = (dictionaryX["employees"] as? NSArray)
         {
-            let arrayX1 = arrayX
-            
-            for arrayX3 in arrayX1
+            for arrayX2 in arrayX1
             {
-                let detailX1 = arrayX3 as! [String : Any]
+                let detailX1 = arrayX2 as! [String : Any]
+                
                 print("ID           : ",detailX1["id"] ?? "not valid option")
+                print("Name         : ",detailX1["name"] ?? "not valid option")
+                print("E-mail ID    : ",detailX1["email"] ?? "not valid option")
+                print("Address      : ",detailX1["address"] ?? "not valid option")
                 
-                let detailX2 = arrayX3 as! [String : Any]
-                print("Name         : ",detailX2["name"] ?? "not valid option")
+                    let detailX2a = detailX1["phone"] as? [String : Any]
                 
-                let detailX3 = arrayX3 as! [String : Any]
-                print("E-mail ID    : ",detailX3["email"] ?? "not valid option")
+                    print("Phone-Mobile : ",detailX2a?["mobile"] ?? "not valid option")
+                    print("Phone-Home   : ",detailX2a?["home"] ?? "not valid option")
+                    print("Phone-Office : ",detailX2a?["office"] ?? "not valid option")
                 
-                let detailX4 = arrayX3 as! [String : Any]
-                print("Address      : ",detailX4["address"] ?? "not valid option")
-                
-                    let detailX5a = detailX1["phone"] as? [String : Any]
-                    print("Phone-Mobile : ",detailX5a?["mobile"] ?? "not valid option")
-                
-                    let detailX5b = detailX1["phone"] as? [String : Any]
-                    print("Phone-Home   : ",detailX5b?["home"] ?? "not valid option")
-                
-                    let detailX5c = detailX1["phone"] as? [String : Any]
-                    print("Phone-Office : ",detailX5c?["office"] ?? "not valid option")
-                
-                let detailX6 = arrayX3 as! [String : Any]
-                print("Gender       : ",detailX6["gender"] ?? "not valid option")
-                
+                print("Gender       : ",detailX1["gender"] ?? "not valid option")
                 print("")
                 
             }
