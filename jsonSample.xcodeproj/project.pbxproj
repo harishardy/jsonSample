@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8554560229A676600D02A41 /* TableViewCellX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B855455F229A676600D02A41 /* TableViewCellX.swift */; };
 		B8AEE31C22991BE300213F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AEE31B22991BE300213F47 /* AppDelegate.swift */; };
 		B8AEE31E22991BE300213F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AEE31D22991BE300213F47 /* ViewController.swift */; };
 		B8AEE32122991BE300213F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AEE31F22991BE300213F47 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B855455F229A676600D02A41 /* TableViewCellX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellX.swift; sourceTree = "<group>"; };
 		B8AEE31822991BE300213F47 /* jsonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AEE31B22991BE300213F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AEE31D22991BE300213F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				B8AEE31B22991BE300213F47 /* AppDelegate.swift */,
 				B8AEE32D22991BFB00213F47 /* employee.plist */,
+				B855455F229A676600D02A41 /* TableViewCellX.swift */,
 				B8AEE31D22991BE300213F47 /* ViewController.swift */,
 				B8AEE31F22991BE300213F47 /* Main.storyboard */,
 				B8AEE32222991BE500213F47 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			files = (
 				B8AEE31E22991BE300213F47 /* ViewController.swift in Sources */,
 				B8AEE31C22991BE300213F47 /* AppDelegate.swift in Sources */,
+				B8554560229A676600D02A41 /* TableViewCellX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
